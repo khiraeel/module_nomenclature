@@ -1,0 +1,7 @@
+league_oauth2_server:
+    resource: '@LeagueOAuth2ServerBundle/config/routes.php'
+    type: php
+oauth2_token:
+    path: /oauth/token
+    controller: League\Bundle\OAuth2ServerBundle\Controller\TokenController::indexAction
+
